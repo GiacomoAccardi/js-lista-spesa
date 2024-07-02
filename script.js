@@ -14,3 +14,17 @@ const lista = document.getElementById('lista-spesa')
 //Creo un array vuoto
 
 const array = [];
+
+//creo un ciclo while per raccogliere le informazioni
+
+let item;
+
+while (item != 'stop') {
+    
+   item = prompt('Inserisci un elemento nella lista della spesa o scrivi "stop" per uscire.')
+
+   if (item != 'stop'){
+    array.push(item)
+   } 
+
+} 
