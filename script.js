@@ -7,3 +7,9 @@ L'bboettivo di oggi è quello di creare una lista della spessa nella quale l'ute
 -----------------------------------------------------------------------------
 */
 
+//recupero la mia lista della spesa dal DOM
+
+const lista = document.getElementById('lista-spesa')
+
+
+
