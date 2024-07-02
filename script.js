@@ -11,5 +11,6 @@ L'bboettivo di oggi è quello di creare una lista della spessa nella quale l'ute
 
 const lista = document.getElementById('lista-spesa')
 
+//Creo un array vuoto
 
-
+const array = [];
